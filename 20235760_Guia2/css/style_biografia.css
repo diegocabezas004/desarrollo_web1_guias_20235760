@@ -1,0 +1,194 @@
+*{
+    background-color: lightsteelblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin-right: 5%;
+    margin-left: 7%;
+}
+
+.img-edu{
+    width: 30%;
+    display: block;
+    height: auto;
+    border-bottom: 0px solid;
+    border-right: 0px solid ;
+    margin: 0 auto;
+}
+
+.imagen-intro{
+    width: 30%;
+    display: block;
+    height: auto;
+    border-bottom: 3px solid;
+    border-right: 3px solid ;
+    margin: 0 auto;
+    border-radius: 9px;
+    box-shadow: 5px 5px black;
+}
+
+header{
+    font-size: 23px;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 7%;
+    
+}
+
+nav span.uno a{
+    color: white;
+    background-color: black;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 12px;
+    padding: 9px;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    margin-left: 41%;
+}
+
+nav span.dos a{
+    background-color: black;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    color: white;
+    font-size: 12px;
+    padding: 9px;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    margin-left: 0%;
+}
+
+nav span.tres a{
+    background-color: black;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    color: white;
+    font-size: 12px;
+    padding: 9px;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    margin-left: 0%;
+}
+
+nav span.cuatro a{
+    background-color: black;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    color: white;
+    font-size: 12px;
+    padding: 9px;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    margin-left: 0%;
+}
+
+nav span.cinco a{
+    background-color: black;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    color: white;
+    font-size: 12px;
+    padding: 9px;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    margin-left: 0%;
+}
+
+section.descripcion article h3{
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 28px;
+    color: darkgreen;
+}
+
+section.descripcion article p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+section.descripcion article p:first-letter{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section.descripcion article .img-edu{
+    width: 32.3%;
+    float: left;
+    border: 1px black;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 4px 0.5%;
+    border-radius: 9px;
+    height: 400%;
+    box-shadow: 5px 5px black;
+
+}
+
+section.descripcion article .img-viv{
+    width: 30%;
+    display: block;
+    height: auto;
+    border-bottom: 3px solid;
+    border-right: 3px solid ;
+    margin: 0 auto;
+    box-shadow: 5px 5px black;
+    border-radius: 9px;
+}
+
+section.descripcion article .img-fam1{
+    width: 25.3%;
+    border: 1px black;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px 0.5%;
+    border-radius: 7px;
+    height: 400%;
+    box-shadow: 5px 5px black;
+    align-items: center;
+    margin-left: 23%;
+}
+
+section.descripcion article .img-fam2{
+    width: 25.3%;
+    border: 1px black;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px 0.5%;
+    border-radius: 7px;
+    height: 400%;
+    align-items: center;
+    box-shadow: 5px 5px black;
+}
+
+section.descripcion article .img-tl{
+    width: 32.3%;
+    float: left;
+    border: 1px black;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 4px 0.5%;
+    border-radius: 9px;
+    height: 400%;
+    box-shadow: 5px 5px black;
+}
+
+section.descripcion article .img-hobbies{
+    width: 32.3%;
+    float: left;
+    border: 1px black;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 4px 0.5%;
+    border-radius: 9px;
+    height: 400%;
+    box-shadow: 5px 5px black;
+    display: flex;
+
+}
+
+footer div{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-top: 1px;
+    background: teal;
+    height: 1px;
+}

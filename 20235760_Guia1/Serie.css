@@ -1,0 +1,41 @@
+*{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.main-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nombres{
+    font-size: 25px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.fotos-himym{
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+a:visited{
+    color: grey;
+}

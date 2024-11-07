@@ -1,0 +1,189 @@
+*{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89aae4;
+    line-height: 70px;
+}
+
+#datos-pers #foto-bio{
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    border-radius: 40px;
+}
+
+section{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section#desc-curso #cont #cont-list{
+    padding-left: 60px;
+}
+
+h3{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2em;
+    text-decoration: solid black;
+    font-weight: bold;
+}
+
+a{
+    color: navy;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: underline;
+    transform: scale(1.25);
+}
+
+section#foda{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section#foda p{
+    text-align: center;
+}
+
+section#foda #for{
+    display: inline-block;
+    float: left;
+    width: 44%;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+section#foda #for h1{
+    text-align: center;
+}
+
+section#foda #opor{
+    display: inline-block;
+    float: left;
+    width: 44%;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+section#foda #opor h1{
+    text-align: center;
+}
+
+section#foda #deb{
+    display: inline-block;
+    float: left;
+    width: 44%;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+section#foda #deb h1{
+    text-align: center;
+}
+
+section#foda #ame{
+    display: inline-block;
+    float: left;
+    width: 44%;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+section#foda #ame h1{
+    text-align: center;
+}
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    background-color: #f6f6f6;
+  }
+
+  td, th {
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+  }
+  th {
+    background: navy;
+    color: wheat;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+  }
+
+@media (max-width: 768px) {
+    * {
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    #datos-pers #foto-bio {
+        width: 60%;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    section#foda #for,
+    section#foda #opor,
+    section#foda #deb,
+    section#foda #ame {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section#desc-curso #cont #cont-list {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    * {
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    #datos-pers #foto-bio {
+        width: 50%;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    h1 {
+        font-size: 1.9em;
+    }
+
+    section#foda #for,
+    section#foda #opor,
+    section#foda #deb,
+    section#foda #ame {
+        width: 48%;
+    }
+}
